@@ -26,7 +26,7 @@
         args="-urdf -model t_frog -param robot_description"/>
 
   <!-- ros_control t_frog launch file -->
-  <!--include file="$(find t_frog_control)/launch/t_frog_control.launch" /-->
+  <include file="$(find t_frog_control)/launch/t_frog_control.launch" />
 
 </launch>
 
