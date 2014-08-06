@@ -12,14 +12,12 @@
   <xacro:include filename="$(find t_frog_description)/urdf/materials.xacro" />
 
   <!-- Used for fixing robot to Gazebo 'base_link' -->
-  <!--
-  <link name="world"/>
+  <!--link name="world"/>
 
   <joint name="continuous" type="continuous">
     <parent link="world"/>
     <child link="base_link"/>
-  </joint>
-  -->
+  </joint-->
 
   <!-- Base Link -->
   <link name="base_link">
@@ -233,4 +231,5 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
+
 </robot>
