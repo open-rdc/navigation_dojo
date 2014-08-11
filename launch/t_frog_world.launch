@@ -27,6 +27,8 @@
 
   <!-- ros_control t_frog launch file -->
   <include file="$(find t_frog_control)/launch/t_frog_control.launch" />
+  <include file="$(find t_frog_navigation)/launch/move_base.launch" />
+  <include file="$(find t_frog_slam)/launch/hector_slam_sim.launch" />
 
 </launch>
 
