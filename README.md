@@ -1,2 +1,2 @@
-t_frog_gazebo
+icart_mini_gazebo
 =============
