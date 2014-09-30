@@ -85,7 +85,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='t_frog'>
+    <model name='icart_mini'>
       <link name='base_link'>
         <pose>0 0 0 0 -0 0</pose>
         <inertial>
@@ -267,7 +267,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/daikimaekawa/catkin_ws/src/t_frog_driver/t_frog_description/meshes/hokuyo.dae</uri>
+              <uri>/home/daikimaekawa/catkin_ws/src/icart_mini_driver/icart_mini_description/meshes/hokuyo.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -802,7 +802,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='t_frog'>
+      <model name='icart_mini'>
         <pose>-3.809 25.2364 -0.003553 -1e-06 1e-06 0</pose>
         <link name='base_link'>
           <pose>-3.809 25.2364 -0.003553 -1e-06 1e-06 0</pose>

@@ -22,8 +22,8 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>t_frog_description</run_depend>
-  <run_depend>t_frog_control</run_depend>
+  <run_depend>icart_mini_description</run_depend>
+  <run_depend>icart_mini_control</run_depend>
   <run_depend>gazebo_ros</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
