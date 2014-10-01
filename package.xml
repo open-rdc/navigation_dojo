@@ -25,13 +25,26 @@
   <run_depend>icart_mini_description</run_depend>
   <run_depend>icart_mini_control</run_depend>
   <run_depend>gazebo_ros</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>controller_manager</run_depend>
+  <run_depend>transmission_interface</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>hardware_interface</run_depend>
+  <run_depend>joint_limits_interface</run_depend>
+  <run_depend>urdf</run_depend>
 
-  <!-- The export tag contains other, unspecified, tags -->
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>transmission_interface</build_depend>
+  <build_depend>gazebo_ros_control</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>joint_limits_interface</build_depend>
+  <build_depend>urdf</build_depend>
+
   <export>
-    <!-- You can specify that this package is a metapackage here: -->
-    <!-- <metapackage/> -->
-
-    <!-- Other tools can request additional information be placed here -->
-
+    <gazebo_ros_control plugin="${prefix}/icart_mini_hw_sim_plugins.xml"/>
   </export>
 </package>
