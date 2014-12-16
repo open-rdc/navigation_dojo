@@ -1,9 +1,9 @@
 icart_mini_gazebo
 =============
 
-[![Build Status](https://travis-ci.org/open-rdc/icart_mini_gazebo.svg?branch=indigo-devel)](https://travis-ci.org/open-rdc/icart_mini_gazebo)
+# Deprecated Repository
 
-i-Cart mini gazebo simulation
+Integrated into [here](https://github.com/open-rdc/icart_mini)
 
 ## Usage
 
