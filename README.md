@@ -1,7 +1,7 @@
 icart_mini_gazebo
 =============
 
-# Deprecated Repository
+**Deprecated Repository**
 
 Integrated into [here](https://github.com/open-rdc/icart_mini)
 
